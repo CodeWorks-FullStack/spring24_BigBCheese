@@ -1,3 +1,14 @@
 body {
   background-color: wheat;
 }
+
+
+.card img {
+  height: 28vh;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.signature {
+  font-family: cursive;
+}
