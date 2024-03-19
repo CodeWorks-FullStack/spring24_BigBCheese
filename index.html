@@ -51,7 +51,8 @@
               <div class="card-body">
                 <h3 class="card-title"><i class="signature">Signature</i> Big Cheezy Pizza</h3>
                 <p class="card-text">$11.99</p>
-                <button class=" btn btn-danger w-100">Add to Cart <i class="mdi mdi-cart-plus"></i></button>
+                <button class=" btn btn-danger w-100" onclick="buyItem('Signature Big Cheezy Pizza')">Add to Cart <i
+                    class="mdi mdi-cart-plus"></i></button>
               </div>
             </div>
           </div>
@@ -65,7 +66,8 @@
               <div class="card-body">
                 <h3 class="card-title">100 Game Tokens</h3>
                 <p class="card-text">$15.98</p>
-                <button class=" btn btn-danger w-100">Add to Cart <i class="mdi mdi-cart-plus"></i></button>
+                <button class=" btn btn-danger w-100" onclick="buyItem('100 Game Tokens')">Add to Cart <i
+                    class="mdi mdi-cart-plus"></i></button>
               </div>
             </div>
           </div>
@@ -79,7 +81,8 @@
               <div class="card-body">
                 <h3 class="card-title">Visit from Benedict the Rat</h3>
                 <p class="card-text">$25.97</p>
-                <button class=" btn btn-danger w-100">Add to Cart <i class="mdi mdi-cart-plus"></i></button>
+                <button class=" btn btn-danger w-100" onclick="buyItem('Benedict')">Add to Cart <i
+                    class="mdi mdi-cart-plus"></i></button>
               </div>
             </div>
           </div>
@@ -90,7 +93,23 @@
 
       <!-- SECTION cart 🛒 -->
       <div class="col-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3>Cart</h3>
+            <hr />
+            <section id="cart-items">
 
+              <!-- <p>1x Big Pepperoni Pizza $10.99</p>
+                <p>2x Signature Big Cheezy Pizza $23.96</p> -->
+            </section>
+            <h5 class="text-end">Total:</h5>
+            <hr />
+            <section id="total" class="text-end fw-bold">
+              <!-- $109.89 -->
+            </section>
+            <button class="btn btn-primary w-100" onclick="checkout()"> Checkout <i class="mdi mdi-check"></i></button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
